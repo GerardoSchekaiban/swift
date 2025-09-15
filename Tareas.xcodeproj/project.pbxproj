@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		563A40F52E788C9800E608B7 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A40F42E788C9800E608B7 /* menuView.swift */; };
+		5664C5672E724DE9006CEDFC /* nivelDificultad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664C5662E724DE9006CEDFC /* nivelDificultad.swift */; };
+		568ADC342E6F9F520069B1F6 /* starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 568ADC332E6F9F520069B1F6 /* starjedi.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		56C79E462E6F85AA000D2D80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +30,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		563A40F42E788C9800E608B7 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
+		5664C5662E724DE9006CEDFC /* nivelDificultad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nivelDificultad.swift; sourceTree = "<group>"; };
+		568ADC332E6F9F520069B1F6 /* starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = starjedi.ttf; sourceTree = "<group>"; };
 		56C79E382E6F85A9000D2D80 /* Tareas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tareas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C79E452E6F85AA000D2D80 /* TareasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C79E4F2E6F85AA000D2D80 /* TareasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		568ADC362E6F9F720069B1F6 /* Exceptions for "Tareas" folder in "Tareas" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 56C79E372E6F85A9000D2D80 /* Tareas */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		5605E6BB2E774BB2008E08A0 /* Componentes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		563A40EF2E788C3B00E608B7 /* IMC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IMC;
+			sourceTree = "<group>";
+		};
 		56C79E3A2E6F85A9000D2D80 /* Tareas */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				568ADC362E6F9F720069B1F6 /* Exceptions for "Tareas" folder in "Tareas" target */,
+			);
 			path = Tareas;
 			sourceTree = "<group>";
 		};
@@ -75,10 +107,15 @@
 		56C79E2F2E6F85A9000D2D80 = {
 			isa = PBXGroup;
 			children = (
+				563A40EF2E788C3B00E608B7 /* IMC */,
+				5605E6BB2E774BB2008E08A0 /* Componentes */,
+				5664C5662E724DE9006CEDFC /* nivelDificultad.swift */,
 				56C79E3A2E6F85A9000D2D80 /* Tareas */,
 				56C79E482E6F85AA000D2D80 /* TareasTests */,
 				56C79E522E6F85AA000D2D80 /* TareasUITests */,
 				56C79E392E6F85A9000D2D80 /* Products */,
+				568ADC332E6F9F520069B1F6 /* starjedi.ttf */,
+				563A40F42E788C9800E608B7 /* menuView.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +145,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				5605E6BB2E774BB2008E08A0 /* Componentes */,
+				563A40EF2E788C3B00E608B7 /* IMC */,
 				56C79E3A2E6F85A9000D2D80 /* Tareas */,
 			);
 			name = Tareas;
@@ -192,6 +231,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 56C79E2F2E6F85A9000D2D80;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568ADC342E6F9F520069B1F6 /* starjedi.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563A40F52E788C9800E608B7 /* menuView.swift in Sources */,
+				5664C5672E724DE9006CEDFC /* nivelDificultad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +317,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -338,6 +382,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -400,6 +445,7 @@
 				DEVELOPMENT_TEAM = 9HQ4BHK47Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tareas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +474,7 @@
 				DEVELOPMENT_TEAM = 9HQ4BHK47Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tareas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

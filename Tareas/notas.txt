@@ -1,0 +1,12 @@
+Como agregar los archivos de Localizable para los idiomas:
+Paso1: Command + n
+Paso2: Buscar string y seleccionar String File (Legacy)
+Paso3: Picar en el icono del proyecto -> info -> localizations -> agregar idioma
+
+Como agregar fuente personalizada:
+Paso 1: Descargar fuente en formato .ttf
+Paso 2: Adjuntarla al proyecto. (nombre en minúsculas)
+Paso 3: Picar en el icono del proyecto -> targets -> Nombredel proyecto
+Paso 4: Ir a la pestaña info -> Agregar fonts provided by application
+Paso 5: En value poner el nombre de la fuente junto con su extensión.
+Paso 6: En la UI, después del text, utilizar .font(.custom("starjedi", size: 30))
