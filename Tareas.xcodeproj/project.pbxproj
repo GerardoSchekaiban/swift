@@ -59,6 +59,11 @@
 			path = IMC;
 			sourceTree = "<group>";
 		};
+		563A40FB2E78D97400E608B7 /* examen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = examen;
+			sourceTree = "<group>";
+		};
 		56C79E3A2E6F85A9000D2D80 /* Tareas */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -107,6 +112,7 @@
 		56C79E2F2E6F85A9000D2D80 = {
 			isa = PBXGroup;
 			children = (
+				563A40FB2E78D97400E608B7 /* examen */,
 				563A40EF2E788C3B00E608B7 /* IMC */,
 				5605E6BB2E774BB2008E08A0 /* Componentes */,
 				5664C5662E724DE9006CEDFC /* nivelDificultad.swift */,
@@ -147,6 +153,7 @@
 			fileSystemSynchronizedGroups = (
 				5605E6BB2E774BB2008E08A0 /* Componentes */,
 				563A40EF2E788C3B00E608B7 /* IMC */,
+				563A40FB2E78D97400E608B7 /* examen */,
 				56C79E3A2E6F85A9000D2D80 /* Tareas */,
 			);
 			name = Tareas;
