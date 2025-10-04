@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		563A40F52E788C9800E608B7 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A40F42E788C9800E608B7 /* menuView.swift */; };
 		5664C5672E724DE9006CEDFC /* nivelDificultad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664C5662E724DE9006CEDFC /* nivelDificultad.swift */; };
+		567BD3802E876AD800870F2F /* Actividad04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567BD37F2E876AD800870F2F /* Actividad04.swift */; };
 		568ADC342E6F9F520069B1F6 /* starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 568ADC332E6F9F520069B1F6 /* starjedi.ttf */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		563A40F42E788C9800E608B7 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
 		5664C5662E724DE9006CEDFC /* nivelDificultad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nivelDificultad.swift; sourceTree = "<group>"; };
+		567BD37F2E876AD800870F2F /* Actividad04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad04.swift; sourceTree = "<group>"; };
 		568ADC332E6F9F520069B1F6 /* starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = starjedi.ttf; sourceTree = "<group>"; };
 		56C79E382E6F85A9000D2D80 /* Tareas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tareas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C79E452E6F85AA000D2D80 /* TareasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,11 @@
 			path = TareasUITests;
 			sourceTree = "<group>";
 		};
+		56D0564E2E8B5499003DFBF0 /* navigation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,7 @@
 		56C79E2F2E6F85A9000D2D80 = {
 			isa = PBXGroup;
 			children = (
+				567BD37F2E876AD800870F2F /* Actividad04.swift */,
 				563A40FB2E78D97400E608B7 /* examen */,
 				563A40EF2E788C3B00E608B7 /* IMC */,
 				5605E6BB2E774BB2008E08A0 /* Componentes */,
@@ -122,6 +130,7 @@
 				56C79E392E6F85A9000D2D80 /* Products */,
 				568ADC332E6F9F520069B1F6 /* starjedi.ttf */,
 				563A40F42E788C9800E608B7 /* menuView.swift */,
+				56D0564E2E8B5499003DFBF0 /* navigation */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +164,7 @@
 				563A40EF2E788C3B00E608B7 /* IMC */,
 				563A40FB2E78D97400E608B7 /* examen */,
 				56C79E3A2E6F85A9000D2D80 /* Tareas */,
+				56D0564E2E8B5499003DFBF0 /* navigation */,
 			);
 			name = Tareas;
 			packageProductDependencies = (
@@ -284,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567BD3802E876AD800870F2F /* Actividad04.swift in Sources */,
 				563A40F52E788C9800E608B7 /* menuView.swift in Sources */,
 				5664C5672E724DE9006CEDFC /* nivelDificultad.swift in Sources */,
 			);
