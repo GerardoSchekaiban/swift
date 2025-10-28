@@ -71,6 +71,11 @@
 			path = examen;
 			sourceTree = "<group>";
 		};
+		5658A0C02EB038ED00ED5410 /* parcial2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = parcial2;
+			sourceTree = "<group>";
+		};
 		56C79E3A2E6F85A9000D2D80 /* Tareas */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -137,6 +142,7 @@
 				563A40F42E788C9800E608B7 /* menuView.swift */,
 				56D0564E2E8B5499003DFBF0 /* navigation */,
 				5621C6622EAFEEC100817C96 /* MVVM */,
+				5658A0C02EB038ED00ED5410 /* parcial2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +176,7 @@
 				5621C6622EAFEEC100817C96 /* MVVM */,
 				563A40EF2E788C3B00E608B7 /* IMC */,
 				563A40FB2E78D97400E608B7 /* examen */,
+				5658A0C02EB038ED00ED5410 /* parcial2 */,
 				56C79E3A2E6F85A9000D2D80 /* Tareas */,
 				56D0564E2E8B5499003DFBF0 /* navigation */,
 			);

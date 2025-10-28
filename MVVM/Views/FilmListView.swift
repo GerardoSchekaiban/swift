@@ -13,19 +13,29 @@ struct FilmListView: View {
     
     var body: some View {
         NavigationStack {
-            ScrollView {
-                LazyVStack(spacing: 16) {
-                    ForEach($films) { $film in
-                        NavigationLink(destination: FilmDetailView(film: $film)) {
-                            FilmCardView(film: $film)
+            List {
+                ForEach($films) { $film in
+                    NavigationLink(destination: FilmDetailView(film: $film)) {
+                        FilmCardView(film: $film)
+                    }
+                    .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
+                    .listRowSeparator(.hidden)
+                    .listRowBackground(Color.clear)
+                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                        Button(role: .destructive) {
+                            withAnimation {
+                                films.removeAll { $0.id == film.id }
+                            }
+                        } label: {
+                            Label("Eliminar", systemImage: "trash")
                         }
-                        .buttonStyle(PlainButtonStyle())
                     }
                 }
-                .padding()
             }
+            .listStyle(.plain)
             .navigationTitle("Películas")
             .background(Color(.systemGroupedBackground))
+            .scrollContentBackground(.hidden)
         }
     }
 }
@@ -92,7 +102,6 @@ struct FilmCardView: View {
         .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 2)
     }
 }
-
 
 // MARK: - Preview
 #Preview {
